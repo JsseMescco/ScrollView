@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ibCereza"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:backgroundTint="#0af"
+                android:src="@drawable/cereza" />
+
+            <ImageButton
+                android:id="@+id/ibFrambuesa"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/frambuesa" />
+
+            <ImageButton
+                android:id="@+id/ibFresa"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/fresa" />
+
+            <ImageButton
+                android:id="@+id/ibMango"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/mango"/>
+
+            <ImageButton
+                android:id="@+id/ibNaranja"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/naranja"/>
+
+            <ImageButton
+                android:id="@+id/ibPera"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/pera"/>
+
+            <ImageButton
+                android:id="@+id/ibPina"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/pina"/>
+
+            <ImageButton
+                android:id="@+id/ibPlatano"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/platano"/>
+
+            <ImageButton
+                android:id="@+id/ibSandia"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/sandia"/>
+            <ImageButton
+                android:id="@+id/ibUva"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/uva"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
